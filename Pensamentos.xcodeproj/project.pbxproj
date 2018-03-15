@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		ACF466F02059DAB30003C0E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF466EF2059DAB30003C0E5 /* AppDelegate.swift */; };
-		ACF466F22059DAB30003C0E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF466F12059DAB30003C0E5 /* ViewController.swift */; };
+		ACF466F22059DAB30003C0E5 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF466F12059DAB30003C0E5 /* QuotesViewController.swift */; };
 		ACF466F52059DAB30003C0E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF466F32059DAB30003C0E5 /* Main.storyboard */; };
 		ACF466F72059DAB30003C0E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF466F62059DAB30003C0E5 /* Assets.xcassets */; };
 		ACF466FA2059DAB30003C0E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF466F82059DAB30003C0E5 /* LaunchScreen.storyboard */; };
+		ACF467022059E2440003C0E5 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF467012059E2440003C0E5 /* ConfigViewController.swift */; };
+		ACF467042059E2530003C0E5 /* SaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF467032059E2530003C0E5 /* SaveViewController.swift */; };
+		ACF467062059F5310003C0E5 /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF467052059F5310003C0E5 /* QuotesManager.swift */; };
+		ACF467082059F5950003C0E5 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF467072059F5950003C0E5 /* Quote.swift */; };
+		ACF4670A2059F6E40003C0E5 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = ACF467092059F6E40003C0E5 /* quotes.json */; };
+		ACF4670C2059FCE80003C0E5 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF4670B2059FCE80003C0E5 /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACF466EC2059DAB30003C0E5 /* Pensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF466EF2059DAB30003C0E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACF466F12059DAB30003C0E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACF466F12059DAB30003C0E5 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
 		ACF466F42059DAB30003C0E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACF466F62059DAB30003C0E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACF466F92059DAB30003C0E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACF466FB2059DAB30003C0E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF467012059E2440003C0E5 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		ACF467032059E2530003C0E5 /* SaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveViewController.swift; sourceTree = "<group>"; };
+		ACF467052059F5310003C0E5 /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
+		ACF467072059F5950003C0E5 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		ACF467092059F6E40003C0E5 /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		ACF4670B2059FCE80003C0E5 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				ACF466EF2059DAB30003C0E5 /* AppDelegate.swift */,
-				ACF466F12059DAB30003C0E5 /* ViewController.swift */,
+				ACF467092059F6E40003C0E5 /* quotes.json */,
+				ACF466F12059DAB30003C0E5 /* QuotesViewController.swift */,
+				ACF4670B2059FCE80003C0E5 /* Configuration.swift */,
 				ACF466F32059DAB30003C0E5 /* Main.storyboard */,
 				ACF466F62059DAB30003C0E5 /* Assets.xcassets */,
 				ACF466F82059DAB30003C0E5 /* LaunchScreen.storyboard */,
 				ACF466FB2059DAB30003C0E5 /* Info.plist */,
+				ACF467012059E2440003C0E5 /* ConfigViewController.swift */,
+				ACF467032059E2530003C0E5 /* SaveViewController.swift */,
+				ACF467052059F5310003C0E5 /* QuotesManager.swift */,
+				ACF467072059F5950003C0E5 /* Quote.swift */,
 			);
 			path = Pensamentos;
 			sourceTree = "<group>";
@@ -123,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF4670A2059F6E40003C0E5 /* quotes.json in Resources */,
 				ACF466FA2059DAB30003C0E5 /* LaunchScreen.storyboard in Resources */,
 				ACF466F72059DAB30003C0E5 /* Assets.xcassets in Resources */,
 				ACF466F52059DAB30003C0E5 /* Main.storyboard in Resources */,
@@ -136,8 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACF466F22059DAB30003C0E5 /* ViewController.swift in Sources */,
+				ACF467062059F5310003C0E5 /* QuotesManager.swift in Sources */,
+				ACF466F22059DAB30003C0E5 /* QuotesViewController.swift in Sources */,
+				ACF4670C2059FCE80003C0E5 /* Configuration.swift in Sources */,
+				ACF467042059E2530003C0E5 /* SaveViewController.swift in Sources */,
 				ACF466F02059DAB30003C0E5 /* AppDelegate.swift in Sources */,
+				ACF467082059F5950003C0E5 /* Quote.swift in Sources */,
+				ACF467022059E2440003C0E5 /* ConfigViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
